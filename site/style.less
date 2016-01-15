@@ -1,0 +1,55 @@
+/*-------------------------------------------------------------------------
+ * Autor: German Mendoza
+ * correo: german.mendoza.187@gmail.com
+ * Fecha de publicación: 14/01/2015
+ * Version: 1.0
+ * Copyright: German Mendoza, en caso de distribución colocar mis referencias
+ * Descripcion: Colores para la página
+ *
+ *   DEPENDENCIAS
+ *  - bootstrap.css
+ *  - colors.less
+ *
+ *-------------------------------------------------------------------------*/
+@import './less/colors.less';
+
+.sinchi-nav-bar{
+
+    padding-bottom: 8px;
+    background-color: @select-nav-color;
+
+    li {
+
+        a.dropdown-toggle {
+            background-color: @brand-primary-color;
+            color: @gray-base;
+            font-size: 12px;
+            .active, .hover{
+                color: @brand-primary-color !important;
+            }
+        }
+    }
+
+    li.active > a {
+
+        background-color:  @select-nav-color !important;
+
+    }
+}
+
+@media (min-width: 768px) {
+
+
+
+}
+
+@media (min-width: 992px) {
+
+
+}
+
+@media (min-width: 1200px) {
+
+
+
+}
