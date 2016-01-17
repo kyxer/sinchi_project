@@ -412,6 +412,9 @@ a.navbar-brand {
   .alies img.sin-aly-minam {
     height: 25px;
   }
+  .sin-mid-pnl > .panel > .panel-body {
+    height: auto;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   a.navbar-brand {
@@ -532,6 +535,45 @@ a.navbar-brand {
   }
   .carousel-indicators {
     margin-left: 440px;
+  }
+  .panel .sin-first-parg {
+    font-size: 11px;
+  }
+  .sin-coop > .panel-body img {
+    margin-top: 54px;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+  }
+  .sin-small-pnl > .panel img.sin-logo {
+    margin-top: 30px;
+    height: 65;
+    width: 55px;
+    margin-left: 4px;
+  }
+  .sin-small-pnl > .panel a > img {
+    margin-top: 80px;
+    height: 25px;
+    width: 25px;
+    margin-left: -9px;
+  }
+  .sin-edit > .panel p {
+    font-size: 12px;
+  }
+  .sin-edit > .panel img.sin-mag-title {
+    width: 170px !important;
+    height: 30px !important;
+  }
+  .sin-edit > .panel img.sin-book {
+    margin-left: -20px;
+  }
+  .sin-edit > .panel img.sin-red-arrow {
+    margin-left: 3px;
+  }
+  .sin-first-footer > .sin-foot-title h1 {
+    font-size: 16px;
+    height: 44px;
+    padding-top: 15px;
   }
 }
 @media (min-width: 1200px) {
