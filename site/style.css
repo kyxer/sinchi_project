@@ -149,12 +149,10 @@ a.navbar-brand {
 .sin-blue > .panel > .panel-heading,
 .sin-blue > .panel > .panel-body {
   background-color: #26658b !important;
-  background-image: none !important;
 }
 .sin-gray > .panel > .panel-heading,
 .sin-gray > .panel > .panel-body {
   background-color: #666666 !important;
-  background-image: none !important;
 }
 .sin-moutarde > .row,
 .sin-moutarde > .panel,
@@ -210,12 +208,17 @@ a.navbar-brand {
 .panel-heading {
   border-bottom: 0px;
 }
+.panel-default > .sin-head-pnl {
+  background-image: url('images/patron_header.png') !important;
+  background-repeat: repeat;
+}
 .panel-default > .sin-head-pnl h1 {
   color: #ffffff;
   width: 115px;
   height: 55px;
   font-size: 18px;
   margin: 0px;
+  font-weight: bold;
 }
 .panel-default > .sin-head-pnl img {
   margin-left: 20px;
@@ -327,9 +330,17 @@ a.navbar-brand {
   background-color: #555555;
 }
 .sin-first-footer h1 {
-  margin-left: 25px;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-left: 35px;
+  padding-bottom: 10px;
   color: #ffffff;
   font-size: 22px;
+  font-weight: bold;
+  background-image: url('images/patron_header_pre_footer.png') !important;
+  background-repeat: repeat;
 }
 .sin-first-footer ul {
   list-style-type: none;

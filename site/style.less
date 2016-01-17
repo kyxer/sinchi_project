@@ -185,12 +185,10 @@ a.navbar-brand {
 
 .sin-blue > .panel >.panel-heading, .sin-blue > .panel >.panel-body{
     background-color: @panel-blue !important;
-    background-image: none !important;
 }
 
 .sin-gray > .panel >.panel-heading, .sin-gray > .panel >.panel-body{
     background-color: @panel-gray !important;
-    background-image: none !important;
 }
 
 .sin-moutarde>.row, .sin-moutarde > .panel, .sin-moutarde > .panel >.panel-heading, .sin-moutarde > .panel >.panel-body{
@@ -247,15 +245,19 @@ a.navbar-brand {
 
 .panel-heading{
     border-bottom: 0px;
+
 }
 
 .panel-default>.sin-head-pnl{
+    background-image: url('./images/patron_header.png') !important;
+    background-repeat: repeat;
     h1{
         color: @gray-base;
         width: 115px;
         height: 55px;
         font-size: 18px;
         margin: 0px;
+        font-weight: bold;
     }
     img{
         margin-left: 20px;
@@ -397,9 +399,17 @@ a.navbar-brand {
     background-color: @bk-first-footer;
 
     h1{
-        margin-left: 25px;
+        margin-left: -15px;
+        margin-right: -15px;
+        margin-top: 0px;
+        padding-top: 10px;
+        padding-left: 35px;
+        padding-bottom: 10px;
         color: @gray-base;
         font-size: 22px;
+        font-weight: bold;
+        background-image: url('./images/patron_header_pre_footer.png') !important;
+        background-repeat: repeat;
     }
 
     ul{
