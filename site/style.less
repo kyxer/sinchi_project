@@ -14,12 +14,19 @@
 @import './less/colors.less';
 @import './less/sec_header.less';
 
+
+.owl-item {
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1.0, 1.0);
+}
+
 h1{
     font-family: 'Arial Rounded MT Bold';
 }
 
 .sin-container{
     font-size: 17px;
+	padding:0 30px;
 }
 
 .pointed{
@@ -876,6 +883,5 @@ a.navbar-brand {
     width: 20px;
     margin-left: 540px;
 }
-
 
 }

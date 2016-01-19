@@ -79,11 +79,16 @@
     font-size: 18px;
   }
 }
+.owl-item {
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1, 1);
+}
 h1 {
   font-family: 'Arial Rounded MT Bold';
 }
 .sin-container {
   font-size: 17px;
+  padding: 0 30px;
 }
 .pointed {
   color: #deacac !important;
@@ -446,6 +451,105 @@ a.navbar-brand img {
 .sin-second-footer span {
   color: #deacac;
 }
+.owlTeam img {
+  width: auto !important;
+  display: inline-block !important;
+}
+.owlTeam {
+  position: relative;
+}
+.owlTeam .owl-nav {
+  position: absolute;
+  top: 40%;
+  display: block !important;
+  height: 0px;
+  z-index: 1000;
+  width: 100%;
+}
+.owlTeam .owl-prev {
+  position: absolute;
+  left: -6%;
+  top: 0;
+  background: url('images/slide_prev.png');
+  font-size: 1px !important;
+  text-indent: -500;
+  width: 53px;
+  height: 57px;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.owlTeam .owl-next {
+  position: absolute;
+  right: -6%;
+  top: 0;
+  background: url('images/slide_next.png');
+  font-size: 1px !important;
+  text-indent: -500;
+  width: 53px;
+  height: 57px;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.scrollbar1 {
+  position: relative;
+}
+.scrollbar1 .viewport {
+  height: 225px;
+  overflow: hidden;
+  position: relative;
+}
+.scrollbar1 .overview {
+  list-style: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+}
+.scrollbar1 .scrollbar {
+  background: transparent url(images/bg-scrollbar-track-y.png) no-repeat 0 0;
+  position: absolute;
+  background-position: 0 0;
+  right: -20px;
+  top: 0;
+  width: 15px;
+}
+.scrollbar1 .track {
+  background: transparent url(images/bg-scrollbar-trackend-y.png) no-repeat 0 100%;
+  height: 100%;
+  width: 13px;
+  position: relative;
+  padding: 0 1px;
+}
+.scrollbar1 .thumb {
+  background: transparent url(images/bg-scrollbar-thumb-y.png) no-repeat 50% 100%;
+  height: 20px;
+  width: 25px;
+  cursor: pointer;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: -5px;
+}
+.scrollbar1 .thumb .end {
+  background: transparent url(images/bg-scrollbar-thumb-y.png) no-repeat 50% 0;
+  overflow: hidden;
+  height: 5px;
+  width: 25px;
+}
+.scrollbar1 .disable {
+  display: none;
+}
+.noSelect {
+  user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+}
+img.sin-peo {
+  width: auto !important;
+  display: block !important;
+}
 .sin-our-team-thumb h3 {
   font-size: 1.125em;
   margin-bottom: 1px;
@@ -475,9 +579,10 @@ a.navbar-brand img {
   padding-left: 40px;
   padding-right: 40px;
   height: 225px;
-  overflow: auto;
+  overflow: hidden;
   margin-top: 20px;
   color: #ffffff;
+  font-size: 0.750em;
 }
 .sin-our-team-thumb .sin-pattern-ourteam {
   position: relative;

@@ -9,3 +9,36 @@ var chainFontSize = function(val){
         $(".sin-container").css("font-size", fnt+"px")
     }
 }
+
+
+
+
+
+$( document ).ready(function() {
+	
+	
+	var owlteam = $('.owlTeam');
+	owlteam.owlCarousel({
+		items:4 ,
+		
+		loop:true,
+		responsiveClass:true,
+		responsive:{
+			0:{
+				items:1,
+				center:true,
+				nav:false,
+			},
+			768:{
+				items:3,
+				nav:true,
+				margin:15
+			}
+		},
+		autoplay:false, autoplayTimeout:4000, autoplayHoverPause:true
+	});
+	
+	var $scrollbar = $(".scrollbar1");
+	$scrollbar.tinyscrollbar();
+	
+});
