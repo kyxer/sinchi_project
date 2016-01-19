@@ -88,7 +88,6 @@ h1 {
 }
 .sin-container {
   font-size: 17px;
-  padding: 0 30px;
 }
 .pointed {
   color: #deacac !important;
@@ -451,6 +450,9 @@ a.navbar-brand img {
 .sin-second-footer span {
   color: #deacac;
 }
+.sin-padding {
+  padding: 0 30px;
+}
 .owlTeam img {
   width: auto !important;
   display: inline-block !important;
@@ -633,7 +635,7 @@ img.sin-peo {
   padding-left: 0px;
 }
 .sin-cnt-news img.sin-peo {
-  width: 100%;
+  width: 100% !important;
 }
 .sin-cnt-news .caption {
   padding-left: 30px;
