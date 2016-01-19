@@ -13,6 +13,10 @@
  *-------------------------------------------------------------------------*/
 @import './less/colors.less';
 
+h1{
+    font-family: 'Arial Rounded MT Bold';
+}
+
 .pointed{
     color: @pointed-color !important;
 }
@@ -20,7 +24,11 @@ a.navbar-brand {
     height: auto;
     padding: 0px;
     padding-top: 10px;
-    margin-left: 25px !important;
+    margin-left: 15px !important;
+
+    img{
+        height: 100px;
+    }
 }
 
 .navbar{
@@ -34,7 +42,7 @@ a.navbar-brand {
 
 .sinchi-pre-nav {
     li > a{
-        font-size: 10px;
+        font-size: 9px;
         color: @font-color-gray;
         padding-bottom: 0px;
         padding-top: 0px;
@@ -97,7 +105,8 @@ a.navbar-brand {
         a.dropdown-toggle {
             background-color: @brand-primary-color;
             color: @gray-base;
-            font-size: 12px;
+            font-size: 10px;
+            font-family: 'Arial Rounded MT Bold';
             .active, .hover{
                 color: @brand-primary-color !important;
             }
@@ -121,6 +130,8 @@ a.navbar-brand {
     color: @gray-base;
     background-color: @select-nav-color;
     background-image: none;
+    font-size: 11px;
+    font-family: 'Arial Rounded MT Bold';
 }
 
 .sinchi-poligono{
@@ -136,7 +147,7 @@ a.navbar-brand {
         font-size: 20px;
         width: 206px;
         text-align: center;
-        margin-top: 100px;
+        margin-top: 60px;
         margin-left: 50px;
     }
 
@@ -253,11 +264,12 @@ a.navbar-brand {
     background-repeat: repeat;
     h1{
         color: @gray-base;
-        width: 115px;
+        width: 140px;
         height: 55px;
         font-size: 18px;
         margin: 0px;
         font-weight: bold;
+
     }
     img{
         margin-left: 20px;
@@ -291,6 +303,7 @@ a.navbar-brand {
     h1{
         color:@font-color-gray !important;
         width: 200px !important;
+        font-size: 14px !important;
     }
     p{
         color: @font-color-gray;
@@ -336,8 +349,7 @@ a.navbar-brand {
     height: 120px;
     h1{
         color: @gray-base;
-        font-size: 20px;
-        width: 125px
+        font-size: 19px;
     }
 
     img.sin-logo {
@@ -406,10 +418,11 @@ a.navbar-brand {
         padding-left: 35px;
         padding-bottom: 10px;
         color: @gray-base;
-        font-size: 22px;
+        font-size: 15px;
         font-weight: bold;
         background-image: url('./images/patron_header_pre_footer.png') !important;
         background-repeat: repeat;
+        height: 44px
     }
 
     ul{
@@ -446,15 +459,15 @@ a.navbar-brand {
 @media (max-width: 767px) {
     .sinchi-pre-nav {
         li {
-            padding-top: 20px;
-            padding-bottom: 20px;
+            padding-top: 5px;
+            padding-bottom: 5px;
             margin-top: 0px;
             margin-bottom: 0px;
 
         }
 
         li > a{
-            font-size: 15px;
+            font-size: 11px;
         }
 
         li:nth-child(-n+4) {
@@ -473,15 +486,22 @@ a.navbar-brand {
         }
 
         form {
+            margin-top: 0px;
             margin-right: 10px;
             margin-left: 10px;
-            font-size: 15px;
+            font-size: 12px;
 
             input{
                 height: 30px;
                 width: 100% !important;
             }
         }
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a{
+        font-size: 10px;
+        color:@gray-base;
+
     }
 
     .carousel-indicators{
@@ -513,6 +533,62 @@ a.navbar-brand {
         height: auto;
     }
 
+    .panel-default>.sin-head-pnl{
+
+        img{
+            margin-left: 10px;
+        }
+
+    }
+    .sin-coop>.panel-body{
+
+        p{
+            margin-left: -18px !important;
+        }
+        img{
+
+            height: 50px;
+            width: 50px;
+
+        }
+    }
+
+    .sin-small-pnl > .panel {
+
+        h1{
+            font-size: 17px;
+        }
+
+        img.sin-logo {
+            margin-top: 21px;
+            height: 80px;
+            width: 60px;
+        }
+
+        a > img{
+                margin-left: -6px;
+        }
+    }
+    .sin-edit > .panel {
+
+        img.sin-book {
+            margin-top: 20px !important;
+            width: 55px !important;
+            height: 75px !important;
+        }
+        h1 {
+
+            width: 170px !important;
+            font-size: 12px !important;
+        }
+
+        img.sin-mag-title {
+            margin-top: 4px !important;
+            width: 170px !important;
+            height: 30px !important;
+        }
+    }
+
 
 
 }
@@ -532,6 +608,7 @@ a.navbar-brand {
 
             padding-left: 5px;
             padding-right: 5px;
+            font-size: 9px;
         }
 
         li:nth-child(10){
@@ -619,16 +696,16 @@ a.navbar-brand {
 
 @media (min-width: 992px) and (max-width: 1199px) {
     a.navbar-brand {
-        margin-left: 15px !important;
+        margin-left: 10px;
 
         img{
-            height: 80px;
+            height: 60px;
         }
     }
 
     .sinchi-pre-nav {
         li > a{
-            font-size: 10px;
+            font-size: 9px;
             padding-right: 10px;
             padding-left: 10px;
 
@@ -667,7 +744,7 @@ a.navbar-brand {
 
     ul.sinchi-nav-bar > li.dropdown > a{
         padding:10px;
-        font-size: 10px;
+        font-size: 9px;
 
     }
 
@@ -741,11 +818,12 @@ a.navbar-brand {
     }
 }
 
+
 @media (min-width: 1200px) {
 
 .sinchi-pre-nav {
     li > a{
-        font-size: 10px;
+        font-size: 9px;
         padding-bottom: 0px;
         padding-top: 0px;
 

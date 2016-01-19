@@ -1,36 +1,12 @@
 @font-face {
-  font-family: 'Dolce Vita';
-  src: url('Dolce Vita.eot'); /* IE9 Compat Modes */
-  src: url('Dolce Vita.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('Dolce Vita.woff') format('woff'), /* Modern Browsers */
-       url('Dolce Vita.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('Dolce Vita.svg#a24da55da8a80de703d242f4d21574e5') format('svg'); /* Legacy iOS */
-       
-  font-style:   normal;
-  font-weight:  400;
-}
-
-@font-face {
-  font-family: 'Dolce Vita Heavy';
-  src: url('Dolce Vita Heavy Bold.eot'); /* IE9 Compat Modes */
-  src: url('Dolce Vita Heavy Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('Dolce Vita Heavy Bold.woff') format('woff'), /* Modern Browsers */
-       url('Dolce Vita Heavy Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('Dolce Vita Heavy Bold.svg#d434a6b06df7c243c03be4b3ee403704') format('svg'); /* Legacy iOS */
+  font-family: 'Arial Rounded MT Bold';
+  src: url('Arial Rounded Bold.eot'); /* IE9 Compat Modes */
+  src: url('Arial Rounded Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Arial Rounded Bold.woff') format('woff'), /* Modern Browsers */
+       url('Arial Rounded Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Arial Rounded Bold.svg#21a05f177bbba8e1aa4912b744621a32') format('svg'); /* Legacy iOS */
        
   font-style:   normal;
   font-weight:  700;
-}
-
-@font-face {
-  font-family: 'Dolce Vita Light';
-  src: url('Dolce Vita Light.eot'); /* IE9 Compat Modes */
-  src: url('Dolce Vita Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('Dolce Vita Light.woff') format('woff'), /* Modern Browsers */
-       url('Dolce Vita Light.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('Dolce Vita Light.svg#1908418e156f30f2b10abc2574b1fcc6') format('svg'); /* Legacy iOS */
-       
-  font-style:   normal;
-  font-weight:  200;
 }
 
