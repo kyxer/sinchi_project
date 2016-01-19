@@ -1,0 +1,142 @@
+@import './less/colors.less';
+.sin-cnt-news{
+    .thumbnail{
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+
+    }
+
+    img.sin-peo{
+        width: 100%;
+    }
+
+    .caption{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 5px;
+        background-color: @brand-primary-color;
+        height: 115px;
+        background-image: url('./images/patron_news.png');
+        background-repeat: repeat;
+
+
+        h3{
+            margin-top: 0px;
+            margin-bottom: 20px;
+            padding-top: 0px;
+
+            font-size: 1.063em;
+            font-family: 'Arial Rounded MT Bold';
+            color: @gray-base
+        }
+
+        h4{
+            font-size: 0.625em;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            color: @gray-base;
+        }
+    }
+
+    .sin-new{
+        padding: 30px;
+        font-size: 0.813em;
+        color: @font-news-color;
+
+         a.sin-see-more{
+            float: right;
+            color: @font-news-color;
+            img{
+                float: right;
+                margin-top: 5px;
+                margin-left: 8px;
+            }
+        }
+    }
+
+}
+
+.sin-cnt-old-news{
+
+    border-left: 1px solid;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    border-color: @font-news-color;
+
+    h1{
+        color: @brand-primary-color;
+        font-size: 1.500em;
+    }
+
+    h4{
+
+        font-size: 0.688em;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    h4>a{
+
+        color: @font-news-color !important;
+
+    }
+
+    .row {
+
+        border-bottom: 1px solid;
+        border-color: @font-news-color;
+        margin-top: 20px;
+
+    }
+    .sin-date{
+
+        width: 50px;
+        height: 50px;
+        background: @brand-primary-color;
+        padding: 10px;
+        text-align: center;
+        font-size: 0.750em;
+        color: @gray-base;
+        margin-left: 10px;
+
+        span{
+            display: block;
+        }
+    }
+
+    p {
+        font-size:0.625em;
+        color: @font-news-color;
+    }
+    a.sin-see-more{
+        img{
+            width: 10px;
+            margin-right: 20px;
+            float: right;
+        }
+    }
+
+    nav{
+        text-align: center;
+        .pagination{
+            li>a{
+                border: 0px;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px){
+
+    .sin-cnt-old-news{
+
+        border-left: 0px solid;
+        padding-left: 0px;
+        margin-bottom: 0px;
+
+
+    }
+
+
+}
