@@ -76,11 +76,16 @@
     font-size: 18px;
   }
 }
+.owl-item {
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1, 1);
+}
 h1 {
   font-family: 'Arial Rounded MT Bold';
 }
 .sin-container {
   font-size: 17px;
+  padding: 0 30px;
 }
 .pointed {
   color: #deacac !important;
@@ -150,7 +155,7 @@ a.navbar-brand img {
 }
 .sinchi-nav-bar li a.dropdown-toggle {
   background-color: #943a4a;
-  color: #ffffff;
+  color: #fff;
   font-size: 10px;
   font-family: 'Arial Rounded MT Bold';
 }
@@ -159,15 +164,15 @@ a.navbar-brand img {
   color: #943a4a !important;
 }
 .sinchi-nav-bar li a.dropdown-toggle:hover {
-  color: #ffffff;
+  color: #fff;
   background-color: #888888;
 }
 .sinchi-nav-bar li a.dropdown-toggle:active {
-  color: #ffffff;
+  color: #fff;
   background-color: #888888;
 }
 .navbar-collapse > ul.sinchi-nav-bar > li.active > a {
-  color: #ffffff;
+  color: #fff;
   background-color: #888888;
   background-image: none;
   font-size: 11px;
@@ -181,7 +186,7 @@ a.navbar-brand img {
   position: absolute;
 }
 .sinchi-poligono h1 {
-  color: #ffffff;
+  color: #fff;
   font-size: 20px;
   width: 206px;
   text-align: center;
@@ -189,7 +194,7 @@ a.navbar-brand img {
   margin-left: 50px;
 }
 .sinchi-poligono h2 {
-  color: #ffffff;
+  color: #fff;
   font-size: 11px;
   font-weight: bold;
   width: 190px;
@@ -252,7 +257,7 @@ a.navbar-brand img {
   background-image: none !important;
 }
 .panel p {
-  color: #ffffff;
+  color: #fff;
   line-height: 1;
 }
 .panel .sin-first-parg {
@@ -290,7 +295,7 @@ a.navbar-brand img {
   background-repeat: repeat;
 }
 .panel-default > .sin-head-pnl h1 {
-  color: #ffffff;
+  color: #fff;
   width: 140px;
   height: 55px;
   font-size: 18px;
@@ -357,7 +362,7 @@ a.navbar-brand img {
   height: 120px;
 }
 .sin-small-pnl > .panel h1 {
-  color: #ffffff;
+  color: #fff;
   font-size: 19px;
 }
 .sin-small-pnl > .panel img.sin-logo {
@@ -371,7 +376,7 @@ a.navbar-brand img {
   width: 30px;
 }
 .sin-small-pnl > .panel ul > li > a {
-  color: #ffffff;
+  color: #fff;
   font-size: 18px;
   font-style: none;
 }
@@ -413,7 +418,7 @@ a.navbar-brand img {
   padding-top: 10px;
   padding-left: 35px;
   padding-bottom: 10px;
-  color: #ffffff;
+  color: #fff;
   font-size: 15px;
   font-weight: bold;
   background-image: url('images/patron_header_pre_footer.png') !important;
@@ -429,7 +434,7 @@ a.navbar-brand img {
 }
 .sin-first-footer ul > li > a,
 .sin-first-footer ul > li > a:hover {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
 }
 .sin-second-footer {
@@ -438,15 +443,58 @@ a.navbar-brand img {
 }
 .sin-second-footer p {
   margin-left: 45px;
-  color: #ffffff;
+  color: #fff;
 }
 .sin-second-footer span {
   color: #deacac;
 }
+.owlTeam img {
+  width: auto !important;
+  display: inline-block !important;
+}
+.owlTeam {
+  position: relative;
+}
+.owlTeam .owl-nav {
+  position: absolute;
+  top: 40%;
+  display: block !important;
+  height: 0px;
+  z-index: 1000;
+  width: 100%;
+}
+.owlTeam .owl-prev {
+  position: absolute;
+  left: -6%;
+  top: 0;
+  background: url(images/slide_prev.png);
+  font-size: 1px !important;
+  text-indent: -500;
+  width: 53px;
+  height: 57px;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.owlTeam .owl-next {
+  position: absolute;
+  right: -6%;
+  top: 0;
+  background: url(images/slide_next.png);
+  font-size: 1px !important;
+  text-indent: -500;
+  width: 53px;
+  height: 57px;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+img.sin-peo {
+  width: auto !important;
+  display: block !important;
+}
 .sin-our-team-thumb h3 {
   font-size: 1.125em;
   margin-bottom: 1px;
-  color: #ffffff;
+  color: #fff;
 }
 .sin-our-team-thumb h4 {
   font-size: 0.938em;
@@ -474,7 +522,8 @@ a.navbar-brand img {
   height: 225px;
   overflow: auto;
   margin-top: 20px;
-  color: #ffffff;
+  color: #fff;
+  font-size: 0.750em;
 }
 .sin-our-team-thumb .sin-pattern-ourteam {
   position: relative;
@@ -553,7 +602,7 @@ a.navbar-brand img {
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     font-size: 10px;
-    color: #ffffff;
+    color: #fff;
   }
   .carousel-indicators {
     margin-left: 45%;
