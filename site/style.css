@@ -11,8 +11,76 @@
  *  - colors.less
  *
  *-------------------------------------------------------------------------*/
+.sin-sec-header h1 {
+  font-size: 2em;
+  color: #943a4a;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.sin-sec-header ol {
+  background-color: transparent;
+  padding: 8px 2px;
+}
+.sin-sec-header button {
+  background-color: transparent;
+  background: transparent;
+  border: 0px;
+  font-family: 'Arial Rounded MT Bold';
+  height: 60px;
+  width: 60px;
+  color: #9a9a9a;
+}
+.sin-sec-header sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+.sin-sec-header .btn-group {
+  margin-top: 20px;
+  float: right;
+}
+.sin-sec-header .sin-sm {
+  padding: 20px;
+  font-size: 15px;
+  border-right: 1px solid;
+}
+.sin-sec-header .sin-bg {
+  padding: 20px;
+  font-size: 18px;
+}
+@media (max-width: 767px) {
+  .sin-sec-header h1 {
+    font-size: 1.063em;
+    margin-top: 15px;
+  }
+  .sin-sec-header ol {
+    padding: 8px 2px;
+  }
+  .sin-sec-header ol li {
+    font-size: 0.563em;
+  }
+  .sin-sec-header button {
+    height: 25px;
+    width: 25px;
+  }
+  .sin-sec-header .btn-group {
+    margin-top: 20px;
+    float: right;
+  }
+  .sin-sec-header .sin-sm {
+    padding: 20px;
+    font-size: 15px;
+    border-right: 1px solid;
+  }
+  .sin-sec-header .sin-bg {
+    padding: 20px;
+    font-size: 18px;
+  }
+}
 h1 {
   font-family: 'Arial Rounded MT Bold';
+}
+.sin-container {
+  font-size: 17px;
 }
 .pointed {
   color: #deacac !important;
@@ -374,6 +442,82 @@ a.navbar-brand img {
 }
 .sin-second-footer span {
   color: #deacac;
+}
+.sin-our-team-thumb h3 {
+  font-size: 1.125em;
+  margin-bottom: 1px;
+  color: #ffffff;
+}
+.sin-our-team-thumb h4 {
+  font-size: 0.938em;
+  margin-top: 0px;
+  color: #dfd5f3;
+}
+.sin-our-team-thumb h5 {
+  font-size: 0.750em;
+  margin-bottom: 5px;
+  color: #dfd5f3;
+}
+.sin-our-team-thumb .thumbnail {
+  background-color: #888888;
+  height: 750px;
+}
+.sin-our-team-thumb .caption {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.sin-our-team-thumb .sin-text-bio {
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 225px;
+  overflow: auto;
+  margin-top: 20px;
+  color: #ffffff;
+}
+.sin-our-team-thumb .sin-pattern-ourteam {
+  position: relative;
+  bottom: -22px;
+  height: 40px;
+  background-image: url('images/patron_our_team.png');
+  background-repeat: repeat;
+  width: 102%;
+  left: -4px;
+}
+@media (max-width: 767px) {
+  .sin-our-team-thumb img.sin-peo {
+    height: 300px;
+  }
+  .sin-our-team-thumb h3 {
+    font-size: 0.750em;
+  }
+  .sin-our-team-thumb h4 {
+    font-size: 0.688em;
+  }
+  .sin-our-team-thumb h5 {
+    font-size: 0.625em;
+    margin-bottom: 2px;
+  }
+  .sin-our-team-thumb .thumbnail {
+    height: 650px;
+  }
+  .sin-our-team-thumb .caption {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .sin-our-team-thumb .sin-text-bio {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 200px;
+  }
+  .sin-our-team-thumb .sin-text-bio p {
+    font-size: 0.688em;
+  }
+  .sin-our-team-thumb .sin-pattern-ourteam {
+    bottom: -11px;
+    left: -2px;
+  }
 }
 @media (max-width: 767px) {
   .sinchi-pre-nav li {

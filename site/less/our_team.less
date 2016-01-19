@@ -1,0 +1,104 @@
+@import './less/colors.less';
+
+.sin-our-team-thumb {
+
+    h3{
+        font-size: 1.125em;
+        margin-bottom: 1px;
+        color: @gray-base;
+    }
+
+    h4{
+        font-size: 0.938em;
+        margin-top: 0px;
+        color: @charge-our-team;
+    }
+
+    h5{
+        font-size: 0.750em;
+        margin-bottom: 5px;
+        color: @charge-our-team;
+    }
+
+    .thumbnail{
+        background-color: @bk-our-team;
+        height: 750px;
+    }
+
+    .caption{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .sin-text-bio{
+        padding-left: 40px;
+        padding-right: 40px;
+        height: 225px;
+        overflow: auto;
+        margin-top: 20px;
+        color: @gray-base;
+    }
+
+    .sin-pattern-ourteam{
+        position: relative;
+        bottom: -22px;
+        height: 40px;
+        background-image: url('./images/patron_our_team.png');
+        background-repeat: repeat;
+        width: 102%;
+        left: -4px;
+    }
+
+}
+
+@media (max-width: 767px){
+    .sin-our-team-thumb {
+
+        img.sin-peo{
+            height: 300px;
+        }
+
+        h3{
+            font-size: 0.750em;
+        }
+
+        h4{
+            font-size: 0.688em;
+        }
+
+        h5{
+            font-size: 0.625em;
+            margin-bottom: 2px;
+        }
+
+        .thumbnail{
+            height: 650px;
+        }
+
+        .caption{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .sin-text-bio{
+            padding-left: 20px;
+            padding-right: 20px;
+            height: 200px;
+
+            p{
+                font-size: 0.688em;
+            }
+        }
+
+        .sin-pattern-ourteam{
+            bottom: -11px;
+            left: -2px;
+        }
+
+    }
+
+
+
+}
