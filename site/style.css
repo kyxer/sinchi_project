@@ -22,7 +22,7 @@
   padding: 8px 2px;
 }
 .sin-sec-header ol li {
-  font-size: 0.750em;
+  font-size: 0.688em;
 }
 .sin-sec-header button {
   background-color: transparent;
@@ -218,14 +218,14 @@ a.navbar-brand img {
   margin-left: 126px;
   margin-top: 50px;
 }
-.carousel-indicators {
+.sin-cnt-home .carousel-indicators {
   width: 20px;
 }
-.carousel-indicators .active {
+.sin-cnt-home .carousel-indicators .active {
   background-color: #deacac;
   border-color: #deacac;
 }
-.carousel-indicators > li {
+.sin-cnt-home .carousel-indicators > li {
   background-color: #888888;
   border-color: #888888;
   display: block;
@@ -475,8 +475,8 @@ a.navbar-brand img {
   background: url('images/slide_prev.png');
   font-size: 1px !important;
   text-indent: -500;
-  width: 53px;
-  height: 57px;
+  width: 34px;
+  height: 37px;
   margin: 0 !important;
   padding: 0 !important;
 }
@@ -487,8 +487,8 @@ a.navbar-brand img {
   background: url('images/slide_next.png');
   font-size: 1px !important;
   text-indent: -500;
-  width: 53px;
-  height: 57px;
+  width: 34px;
+  height: 37px;
   margin: 0 !important;
   padding: 0 !important;
 }
@@ -814,7 +814,7 @@ img.sin-peo {
     font-size: 10px;
     color: #ffffff;
   }
-  .carousel-indicators {
+  .sin-cnt-home .carousel-indicators {
     margin-left: 45%;
   }
   .alies h1 {
@@ -906,7 +906,7 @@ img.sin-peo {
     padding: 5px;
     font-size: 10px;
   }
-  .carousel-indicators {
+  .sin-cnt-home .carousel-indicators {
     margin-left: 330px;
   }
   .sinchi-poligono {
@@ -987,7 +987,7 @@ img.sin-peo {
     padding: 10px;
     font-size: 10px;
   }
-  .carousel-indicators {
+  .sin-cnt-home .carousel-indicators {
     margin-left: 440px;
   }
   .panel .sin-first-parg {
@@ -1064,7 +1064,7 @@ img.sin-peo {
     height: 25px;
     width: 120px !important;
   }
-  .carousel-indicators {
+  .sin-cnt-home .carousel-indicators {
     width: 20px;
     margin-left: 540px;
   }
