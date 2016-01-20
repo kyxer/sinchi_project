@@ -1,0 +1,64 @@
+@import './less/colors.less';
+.sin-service{
+    h2,h3{
+        font-family: 'Arial Rounded MT Bold';
+    }
+
+    h2{
+        font-size: 1.250em;
+        margin: 0;
+        color: @font-color-gray;
+    }
+
+    h3{
+        margin-top: 5px;
+        font-size: 0.938em;
+        color: @brand-primary-color;
+    }
+
+    p{
+        font-size: 0.813em;
+        color: @font-news-color;
+    }
+
+    .first-row {
+        padding-top: 30px;
+        border-top: 1px solid
+    }
+
+    .row{
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+        border-bottom: 1px solid;
+        border-color: @font-news-color;
+    }
+
+    img.sin-image{
+        width: 100%;
+    }
+
+    .sin-pat{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 26px;
+        height: 100%;
+        background-image: url('./images/patron_service.png');
+        background-repeat: repeat;
+        float: right;
+    }
+
+}
+
+@media (max-width: 767px){
+
+    .sin-service{
+
+
+        h2{
+            margin-top: 10px;
+        }
+
+
+    }
+}
