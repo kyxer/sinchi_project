@@ -732,6 +732,52 @@ img.sin-peo {
     margin-bottom: 0px;
   }
 }
+.sin-service h2,
+.sin-service h3 {
+  font-family: 'Arial Rounded MT Bold';
+}
+.sin-service h2 {
+  font-size: 1.250em;
+  margin: 0;
+  color: #7b7b7b;
+}
+.sin-service h3 {
+  margin-top: 5px;
+  font-size: 0.938em;
+  color: #943a4a;
+}
+.sin-service p {
+  font-size: 0.813em;
+  color: #a4adad;
+}
+.sin-service .first-row {
+  padding-top: 30px;
+  border-top: 1px solid;
+}
+.sin-service .row {
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid;
+  border-color: #a4adad;
+}
+.sin-service img.sin-image {
+  width: 100%;
+}
+.sin-service .sin-pat {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 26px;
+  height: 100%;
+  background-image: url('images/patron_service.png');
+  background-repeat: repeat;
+  float: right;
+}
+@media (max-width: 767px) {
+  .sin-service h2 {
+    margin-top: 10px;
+  }
+}
 @media (max-width: 767px) {
   .sinchi-pre-nav li {
     padding-top: 5px;
