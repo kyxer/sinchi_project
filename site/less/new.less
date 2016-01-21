@@ -1,0 +1,87 @@
+@import './less/colors.less';
+.sin-new{
+    h1{
+        color: @title-new;
+        font-size: 1.313em;
+        margin-bottom: 30px;
+    }
+
+    h3{
+        color: @title-new;
+        font-size: 0.813em;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .sin-text{
+        border-top: 1px solid;
+        padding-top: 40px;
+        margin-top: 5px;
+        margin-bottom: 50px;
+        border-color: @font-news-color;
+    }
+
+    p{
+        font-size: 0.938em;
+        color: @font-news-color;
+        margin-bottom: 15px;
+    }
+
+    .carousel{
+        padding-top: 50px;
+        border-top: 1px solid;
+        margin-top: 5px;
+        border-color: @font-news-color;
+    }
+
+    .carousel-inner{
+        img{
+            width: 100%;
+        }
+    }
+
+    .carousel-caption{
+        left: 0;
+        right: 0;
+        margin: 0;
+        bottom: 0;
+        padding-bottom: 56px;
+        width: 100%;
+        background: @title-new;
+        height: 150px;
+        p{
+            height: 90px;
+            overflow: hidden;
+            font-size: 0.813em;
+            padding-left: 10px;
+            padding-right: 10px;
+            color: @gray-base;
+
+        }
+        .sin-pat{
+            height: 50px;
+            width: 100%;
+            background-image: url('./images/patron_new.png');
+            background-repeat: repeat;
+            position: absolute;
+            top: -50;
+        }
+    }
+
+    .carousel-indicators{
+        bottom: 5px;
+    }
+}
+
+@media (max-width: 767px){
+
+    .sin-new{
+
+        .carousel-caption{
+
+            p{
+                font-size: 0.625em;
+            }
+        }
+    }
+}
