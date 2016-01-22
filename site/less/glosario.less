@@ -1,0 +1,42 @@
+@import './less/colors.less';
+.sin-glosario{
+	color:@select-nav-color;
+    h2{
+        font-family: 'Arial Rounded MT Bold';
+		font-size:1.5em;
+    }
+    .first-row {
+        padding-top: 20px;
+        border-bottom: 1px solid
+    }
+
+    .row{
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid;
+        border-color: @font-news-color;
+    }
+	
+	.link{font-family: 'Arial Rounded MT Bold'; color:@panel-wine; font-size:1.5em; margin:0 0.3em}
+	.active{ color:@bk-second-footer}
+	.definicion{ background:url('./images/bg-glosario.png') repeat-x bottom; padding-bottom:80px}
+	
+	.letras{ display:none}
+	.letraA{ display:block}
+
+   
+
+}
+
+@media (max-width: 767px){
+
+    .sin-service{
+
+
+        h2{
+            margin-top: 10px;
+        }
+
+
+    }
+}
