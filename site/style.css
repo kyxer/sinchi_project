@@ -1032,6 +1032,61 @@ a.navbar-brand img {
   padding-bottom: 20px;
   border-color: gray;
 }
+.sin-form-complains p {
+  font-size: 0.938em;
+  color: #a4adad;
+}
+.sin-form-complains .sin-text-brand {
+  color: #943a4a;
+}
+.sin-form-complains .tab-content {
+  border-right: 1px solid;
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+  border-color: #dddddd;
+  margin-bottom: 50px;
+  margin-top: -20px;
+}
+.sin-form-complains .tab-content p {
+  padding: 20px;
+  font-size: 0.938em;
+  color: #943a4a;
+}
+.sin-form-complains h2 {
+  text-align: center;
+  padding-top: 25px;
+  margin-bottom: 30px;
+  font-size: 1.500em;
+  color: gray;
+}
+.sin-form-complains h3 {
+  margin-bottom: 15px;
+  font-size: 0.938em;
+  color: gray;
+}
+.sin-form-complains .radio {
+  color: gray;
+}
+.sin-form-complains .radio span {
+  color: #943a4a;
+}
+.sin-form-complains .control-label {
+  color: gray;
+  font-size: 0.938em;
+  font-weight: normal;
+}
+.sin-form-complains .control-label span {
+  color: #943a4a;
+  font-weight: bold;
+  font-size: 1.125em;
+}
+.sin-form-complains .sin-btn {
+  margin-top: 40px;
+}
+.sin-form-complains .sin-btn button.sin-btn-next {
+  background: #943a4a;
+  color: #ffffff;
+}
 .sin-publicaciones h3 {
   font-size: 1.125em;
   margin-bottom: 1px;
