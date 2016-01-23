@@ -1,0 +1,50 @@
+@import './less/colors.less';
+.sin-indicadores{
+	color:@select-nav-color;
+    h2{
+		font-size:1.5em;
+    }
+    .first-row {
+        border-bottom: 1px solid;
+		margin-bottom:20px;
+    }
+
+    .row{
+        
+        padding-bottom: 7px;
+    }
+	.item{ font-size:0.9em }
+	.item li{
+		list-style: none;
+		padding-left: 1em; 
+    	text-indent: -.7em;
+	}
+	.item li:before {
+		font-size:2em;
+		line-height: 1em;
+		width: .5em;
+		height: .5em;
+		content: "• ";
+		vertical-align:middle;
+		color: @panel-wine /* or whatever color you prefer */
+	}
+	
+	.link a{font-size:0.8em ;color:@panel-wine; text-decoration:none; display:block; width:100%; background:url('./images/arrow_right_red.png') no-repeat 100% 50%; padding-right:20px}
+	
+	
+   
+
+}
+
+@media (max-width: 767px){
+
+    .sin-service{
+
+
+        h2{
+            margin-top: 10px;
+        }
+
+
+    }
+}

@@ -1,0 +1,52 @@
+@import './less/colors.less';
+.sin-links{
+    h2,h3{
+        font-family: 'Arial Rounded MT Bold';
+    }
+
+    h2{
+        font-size: 1.250em;
+        margin: 0;
+        color: @font-color-gray;
+    }
+
+    h3{
+        margin-top: 5px;
+        font-size: 0.938em;
+        color: @brand-primary-color;
+    }
+
+    p{
+        font-size: 0.813em;
+        color: @font-news-color;
+    }
+
+    .first-row {
+        padding-top: 30px;
+        border-top: 1px solid
+    }
+
+    .row{
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+        border-bottom: 1px solid;
+        border-color: @font-news-color;
+    }
+
+    .website-link{ background:url('./images/arrow_right_red.png') no-repeat 100% 50%; color:@panel-wine; padding-right:1.5em}
+	.link-txt{ padding-top:10px; color:@font-change-color}
+
+}
+
+@media (max-width: 767px){
+
+    .sin-links{
+
+
+        h2{
+            margin-top: 10px;
+        }
+
+
+    }
+}
