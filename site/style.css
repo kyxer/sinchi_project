@@ -979,6 +979,59 @@ a.navbar-brand img {
     margin-left: 0px;
   }
 }
+.sin-big-amazonia {
+  padding-top: 50px;
+  border-top: 1px solid;
+  border-color: gray;
+}
+.sin-big-amazonia p {
+  font-size: 0.938em;
+  margin-bottom: 25px;
+  color: #a4adad;
+}
+.sin-big-amazonia .sin-cnt-left {
+  padding-right: 50px;
+}
+.sin-big-amazonia .sin-cnt-right {
+  padding-left: 35px;
+  border-left: 1px solid;
+  margin-bottom: 50px;
+  border-color: #a4adad;
+}
+.sin-big-amazonia .sin-cnt-right h1 {
+  font-size: 2.000em;
+  color: #943a4a;
+  margin-top: 0;
+  margin-bottom: 30px;
+  border-bottom: 1px solid;
+  padding-bottom: 20;
+  padding-left: 0;
+  margin-left: -15px;
+  margin-right: -15px;
+  border-color: gray;
+}
+.sin-big-amazonia .sin-cnt-right .sin-cnt-text {
+  position: absolute;
+  font-size: 0.938em;
+  bottom: 0;
+  margin-left: 10;
+  color: #a4adad;
+}
+.sin-big-amazonia .sin-cnt-right .sin-arrow {
+  position: absolute;
+  left: 93%;
+  bottom: 0;
+}
+.sin-big-amazonia .sin-cnt-right .sin-arrow img {
+  width: 15px;
+  height: 15px;
+}
+.sin-big-amazonia .sin-cnt-right .row {
+  margin-bottom: 20px;
+  border-bottom: 1px solid;
+  padding-bottom: 20px;
+  border-color: gray;
+}
 .sin-publicaciones h3 {
   font-size: 1.125em;
   margin-bottom: 1px;
