@@ -15,12 +15,12 @@ var chainFontSize = function(val){
 
 
 $( document ).ready(function() {
-	
-	
+
+
 	var owlteam = $('.owlTeam');
 	owlteam.owlCarousel({
 		items:4 ,
-		
+
 		loop:true,
 		responsiveClass:true,
 		responsive:{
@@ -37,8 +37,10 @@ $( document ).ready(function() {
 		},
 		autoplay:false, autoplayTimeout:4000, autoplayHoverPause:true
 	});
-	
+
 	var $scrollbar = $(".scrollbar1");
 	$scrollbar.tinyscrollbar();
-	
+
+
+    $('#dp3').datepicker();
 });
