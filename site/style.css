@@ -83,6 +83,10 @@
   -webkit-backface-visibility: hidden;
   -webkit-transform: translateZ(0) scale(1, 1);
 }
+.row-no-padding [class*="col-"] {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
 h1 {
   font-family: 'Arial Rounded MT Bold';
 }
@@ -1032,6 +1036,29 @@ a.navbar-brand img {
   padding-bottom: 20px;
   border-color: gray;
 }
+.sin-program .sin-cnt-left {
+  border-right: 1px solid;
+  margin-bottom: 50px;
+  border-color: #a4adad;
+}
+.sin-program .sin-cnt-left .sin-img img {
+  width: 100%;
+}
+.sin-program .sin-cnt-left h2 {
+  color: #943a4a;
+  font-size: 1.375em;
+}
+.sin-program .sin-cnt-right {
+  border-left: 0px;
+}
+.sin-program .sin-cnt-right h1 {
+  font-size: 1.500em;
+}
+.sin-program .sin-cnt-right .sin-cnt-text {
+  position: relative;
+  font-size: 1.313em;
+  margin-left: 10;
+}
 .sin-form-complains p {
   font-size: 0.938em;
   color: #a4adad;
@@ -1364,15 +1391,134 @@ a.navbar-brand img {
     margin-top: 10px;
   }
 }
-@media (max-width: 767px) {
-  .sin-service h2 {
-    margin-top: 10px;
-  }
+.sin-galfotos .first-row {
+  padding-bottom: 20px;
+}
+.sin-galfotos .item {
+  position: relative;
+  overflow: hidden;
+}
+.sin-galfotos .item img {
+  width: 100%;
+  overflow: hidden;
+}
+.sin-galfotos .item .cover {
+  position: absolute;
+  bottom: -110%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('images/bg-galfotos.png') repeat-y right #0082a0;
+  color: #FFF;
+  transition: all 0.7s;
+  -webkit-transition: all 0.7s;
+  -moz-transition: all 0.7s;
+}
+.sin-galfotos h2,
+.sin-galfotos h3,
+.sin-galfotos h4 {
+  margin: 0;
+  padding: 0;
+}
+.sin-galfotos .item a:hover .cover {
+  bottom: 0;
+}
+.sin-galfotos .titulo,
+.sin-galfotos .subtitulo,
+.sin-galfotos .autor {
+  margin: 16px 100px 0 16px;
+  padding: 0;
+  display: block;
+}
+.sin-galfotos .titulo {
+  font-size: 1.5em;
+  line-height: 1em;
+  margin-top: 1.5em;
+}
+.sin-galfotos .subtitulo {
+  font-size: 1.2em;
+  line-height: 1em;
+}
+.sin-galfotos .autor {
+  font-size: 0.8em;
+  line-height: 1em;
 }
 @media (max-width: 767px) {
   .sin-service h2 {
     margin-top: 10px;
   }
+}
+.sin-galvideos .first-row {
+  padding-bottom: 20px;
+}
+.sin-galvideos .item {
+  position: relative;
+  overflow: hidden;
+}
+.sin-galvideos .item img {
+  width: 100%;
+  overflow: hidden;
+}
+.sin-galvideos .item .cover {
+  position: absolute;
+  bottom: -110%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('images/bg-galvideos.png') repeat-y right #943a4a;
+  color: #FFF;
+  transition: all 0.7s;
+  -webkit-transition: all 0.7s;
+  -moz-transition: all 0.7s;
+}
+.sin-galvideos h2,
+.sin-galvideos h3,
+.sin-galvideos h4 {
+  margin: 0;
+  padding: 0;
+}
+.sin-galvideos .item a:hover .cover {
+  bottom: 0;
+}
+.sin-galvideos .titulo,
+.sin-galvideos .subtitulo,
+.sin-galvideos .autor {
+  margin: 16px 100px 0 16px;
+  padding: 0;
+  display: block;
+}
+.sin-galvideos .titulo {
+  font-size: 1.5em;
+  line-height: 1em;
+  margin-top: 1.5em;
+}
+.sin-galvideos .subtitulo {
+  font-size: 1.2em;
+  line-height: 1em;
+}
+.sin-galvideos .autor {
+  font-size: 0.8em;
+  line-height: 1em;
+}
+@media (max-width: 767px) {
+  .sin-service h2 {
+    margin-top: 10px;
+  }
+}
+.sin-faqs .first-row {
+  padding-top: 30px;
+  border-top: 1px solid;
+}
+.sin-faqs .row {
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid;
+  border-color: #a4adad;
+}
+.sin-faqs .panel-title a {
+  display: block;
+  width: 100%;
+  color: #ff0000 !important;
 }
 @media (max-width: 767px) {
   .sinchi-pre-nav li {
