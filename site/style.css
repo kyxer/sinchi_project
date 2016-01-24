@@ -1052,6 +1052,12 @@ a.navbar-brand img {
   font-size: 0.938em;
   color: #943a4a;
 }
+.sin-form-complains .tab-content .sin-pat {
+  width: 100%;
+  height: 40px;
+  background-image: url('images/pattern-form.png');
+  background-repeat: repeat;
+}
 .sin-form-complains h2 {
   text-align: center;
   padding-top: 25px;
