@@ -144,6 +144,14 @@ a.navbar-brand {
 
 }
 
+.navbar-default .navbar-nav .open .dropdown-menu > li > ul{
+
+        li{
+            list-style: none;
+
+        }
+ }
+
 .navbar-collapse > ul.sinchi-nav-bar > li.active > a {
     color: @gray-base;
     background-color: @select-nav-color;
@@ -534,6 +542,21 @@ a.navbar-brand {
                 height: 30px;
                 width: 100% !important;
             }
+        }
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > li > ul{
+
+        li{
+            list-style: none;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+         li > a{
+            color: @gray-base;
+            font-size: 0.625em;
+            padding: 5px;
         }
     }
 
