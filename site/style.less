@@ -20,6 +20,13 @@
   -webkit-transform: translateZ(0) scale(1.0, 1.0);
 }
 
+.row-no-padding {
+  [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
 h1{
     font-family: 'Arial Rounded MT Bold';
 }
@@ -483,6 +490,7 @@ a.navbar-brand {
 @import './less/convocatorias.less';
 @import './less/galfotos.less';
 @import './less/galvideos.less';
+@import './less/faqs.less';
 
 
 @media (max-width: 767px) {
