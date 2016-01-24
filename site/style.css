@@ -122,10 +122,10 @@ a.navbar-brand img {
   border-right: 1px solid;
   border-color: #a3a3a3;
 }
-.sinchi-pre-nav li:nth-child(-n+9):not(:nth-child(-n+4)) {
+.sinchi-pre-nav li:nth-child(-n+9):not( :nth-child(-n+4)) {
   margin-right: 5px;
 }
-.sinchi-pre-nav li:nth-child(-n+9):not(:nth-child(-n+4)) a {
+.sinchi-pre-nav li:nth-child(-n+9):not( :nth-child(-n+4)) a {
   padding: 0px;
   margin: 0px;
 }
@@ -1549,7 +1549,7 @@ a.navbar-brand img {
   .sinchi-pre-nav li:nth-child(-n+4) {
     border-right: 0px solid;
   }
-  .sinchi-pre-nav li:nth-child(-n+9):not(:nth-child(-n+4)) {
+  .sinchi-pre-nav li:nth-child(-n+9):not( :nth-child(-n+4)) {
     float: left;
     margin-right: 5px;
     margin-left: 18px;
@@ -1713,7 +1713,7 @@ a.navbar-brand img {
     padding-right: 10px;
     padding-left: 10px;
   }
-  .sinchi-pre-nav li:nth-child(-n+9):not(:nth-child(-n+4)) {
+  .sinchi-pre-nav li:nth-child(-n+9):not( :nth-child(-n+4)) {
     margin-right: 5px;
   }
   .sinchi-pre-nav li:nth-child(10) {
@@ -1798,7 +1798,7 @@ a.navbar-brand img {
     border-right: 1px solid;
     border-color: #a3a3a3;
   }
-  .sinchi-pre-nav li:nth-child(-n+9):not(:nth-child(-n+4)) {
+  .sinchi-pre-nav li:nth-child(-n+9):not( :nth-child(-n+4)) {
     margin-right: 5px;
   }
   .sinchi-pre-nav li:nth-child(10) {
