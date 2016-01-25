@@ -288,7 +288,7 @@ a.navbar-brand img {
   margin-bottom: 20px;
 }
 .panel .sin-fourth-parg {
-  font-size: 10px;
+  font-size: 12px;
   word-wrap: break-word;
 }
 .panel .sin-fourth-parg img {
@@ -296,11 +296,14 @@ a.navbar-brand img {
   height: 7px;
   float: right;
 }
+.font12 {
+  font-size: 0.8em;
+}
 .panel-heading {
   border-bottom: 0px;
 }
 .panel-default > .sin-head-pnl {
-  background-image: url('./images/patron_header.png') !important;
+  background-image: url('images/patron_header.png') !important;
   background-repeat: repeat;
 }
 .panel-default > .sin-head-pnl h1 {
@@ -430,7 +433,7 @@ a.navbar-brand img {
   color: #ffffff;
   font-size: 15px;
   font-weight: bold;
-  background-image: url('./images/patron_header_pre_footer.png') !important;
+  background-image: url('images/patron_header_pre_footer.png') !important;
   background-repeat: repeat;
   height: 44px;
 }
@@ -495,7 +498,7 @@ a.navbar-brand img {
   position: relative;
   bottom: -22px;
   height: 40px;
-  background-image: url('./images/patron_our_team.png');
+  background-image: url('images/patron_our_team.png');
   background-repeat: repeat;
   width: 102%;
   left: -4px;
@@ -519,7 +522,7 @@ a.navbar-brand img {
   position: absolute;
   left: -6%;
   top: 0;
-  background: url('./images/slide_prev.png');
+  background: url('images/slide_prev.png');
   font-size: 1px !important;
   text-indent: -500;
   width: 34px;
@@ -531,7 +534,7 @@ a.navbar-brand img {
   position: absolute;
   right: -6%;
   top: 0;
-  background: url('./images/slide_next.png');
+  background: url('images/slide_next.png');
   font-size: 1px !important;
   text-indent: -500;
   width: 34px;
@@ -555,7 +558,7 @@ a.navbar-brand img {
   margin: 0;
 }
 .sin-our-team-thumb .scrollbar1 .scrollbar {
-  background: transparent url(./images/bg-scrollbar-track-y.png) no-repeat 0 0;
+  background: transparent url(images/bg-scrollbar-track-y.png) no-repeat 0 0;
   position: absolute;
   background-position: 0 0;
   right: -20px;
@@ -563,14 +566,14 @@ a.navbar-brand img {
   width: 15px;
 }
 .sin-our-team-thumb .scrollbar1 .track {
-  background: transparent url(./images/bg-scrollbar-trackend-y.png) no-repeat 0 100%;
+  background: transparent url(images/bg-scrollbar-trackend-y.png) no-repeat 0 100%;
   height: 100%;
   width: 13px;
   position: relative;
   padding: 0 1px;
 }
 .sin-our-team-thumb .scrollbar1 .thumb {
-  background: transparent url(./images/bg-scrollbar-thumb-y.png) no-repeat 50% 100%;
+  background: transparent url(images/bg-scrollbar-thumb-y.png) no-repeat 50% 100%;
   height: 20px;
   width: 25px;
   cursor: pointer;
@@ -580,7 +583,7 @@ a.navbar-brand img {
   left: -5px;
 }
 .sin-our-team-thumb .scrollbar1 .thumb .end {
-  background: transparent url(./images/bg-scrollbar-thumb-y.png) no-repeat 50% 0;
+  background: transparent url(images/bg-scrollbar-thumb-y.png) no-repeat 50% 0;
   overflow: hidden;
   height: 5px;
   width: 25px;
@@ -647,7 +650,7 @@ a.navbar-brand img {
   padding-bottom: 5px;
   background-color: #943a4a;
   height: auto;
-  background-image: url('./images/patron_news.png');
+  background-image: url('images/patron_news.png');
   background-repeat: repeat-x;
   background-size: cover;
 }
@@ -687,7 +690,7 @@ a.navbar-brand img {
 }
 .sin-cnt-old-news h1 {
   color: #943a4a;
-  font-size: 1.500em;
+  font-size: 1.200em;
 }
 .sin-cnt-old-news h4 {
   font-size: 0.688em;
@@ -772,7 +775,7 @@ a.navbar-brand img {
   right: 0;
   width: 26px;
   height: 100%;
-  background-image: url('./images/patron_service.png');
+  background-image: url('images/patron_service.png');
   background-repeat: repeat;
   float: right;
 }
@@ -832,7 +835,7 @@ a.navbar-brand img {
 .sin-new .carousel-caption .sin-pat {
   height: 50px;
   width: 100%;
-  background-image: url('./images/patron_new.png');
+  background-image: url('images/patron_new.png');
   background-repeat: repeat;
   position: absolute;
   top: -50;
@@ -874,7 +877,7 @@ a.navbar-brand img {
   border-color: #a4adad;
 }
 .sin-links .website-link {
-  background: url('./images/arrow_right_red.png') no-repeat 100% 50%;
+  background: url('images/arrow_right_red.png') no-repeat 100% 50%;
   color: #943a4a;
   padding-right: 1.5em;
 }
@@ -935,13 +938,13 @@ a.navbar-brand img {
   margin-top: 50px;
   margin-bottom: 50px;
   border-color: #9a9a9a;
-  background: url('./images/patron_our_team.png') repeat-x bottom;
+  background: url('images/patron_our_team.png') repeat-x bottom;
 }
 .sin-publication .sin-cnt-rigth {
   padding-bottom: 40px;
   background: #9a9a9a;
   min-height: 775px;
-  background-image: url('./images/patron_our_team.png');
+  background-image: url('images/patron_our_team.png');
   background-repeat: repeat-x;
   background-position: bottom;
 }
@@ -1000,7 +1003,7 @@ a.navbar-brand img {
   border-color: #a4adad;
 }
 .sin-big-amazonia .sin-cnt-right h1 {
-  font-size: 2.000em;
+  font-size: 1.500em;
   color: #943a4a;
   margin-top: 0;
   margin-bottom: 30px;
@@ -1079,7 +1082,7 @@ a.navbar-brand img {
 .sin-form-complains .tab-content .sin-pat {
   width: 100%;
   height: 40px;
-  background-image: url('./images/pattern-form.png');
+  background-image: url('images/pattern-form.png');
   background-repeat: repeat;
 }
 .sin-form-complains h2 {
@@ -1160,7 +1163,7 @@ a.navbar-brand img {
   position: absolute;
   bottom: 22px;
   height: 40px;
-  background-image: url('./images/patron_our_team.png');
+  background-image: url('images/patron_our_team.png');
   background-repeat: repeat;
   width: 100%;
   left: 0px;
@@ -1184,7 +1187,7 @@ a.navbar-brand img {
   position: absolute;
   left: -6%;
   top: 0;
-  background: url('./images/slide_prev.png');
+  background: url('images/slide_prev.png');
   font-size: 1px !important;
   text-indent: -500;
   width: 34px;
@@ -1196,7 +1199,7 @@ a.navbar-brand img {
   position: absolute;
   right: -6%;
   top: 0;
-  background: url('./images/slide_next.png');
+  background: url('images/slide_next.png');
   font-size: 1px !important;
   text-indent: -500;
   width: 34px;
@@ -1275,7 +1278,6 @@ a.navbar-brand img {
 .sin-glosario .row {
   margin-bottom: 30px;
   padding-bottom: 30px;
-  border-bottom: 1px solid;
   border-color: #a4adad;
 }
 .sin-glosario .link {
@@ -1288,8 +1290,8 @@ a.navbar-brand img {
   color: #373636;
 }
 .sin-glosario .definicion {
-  background: url('./images/bg-glosario.png') repeat-x bottom;
-  padding-bottom: 80px;
+  background: url('images/bg-glosario.png') repeat-x bottom;
+  padding-bottom: 50px;
 }
 .sin-glosario .letras {
   display: none;
@@ -1330,8 +1332,7 @@ a.navbar-brand img {
   height: .5em;
   content: "• ";
   vertical-align: middle;
-  color: #943a4a /* or whatever color you prefer */
-;
+  color: #943a4a /* or whatever color you prefer */;
 }
 .sin-indicadores .link a {
   font-size: 0.8em ;
@@ -1339,7 +1340,7 @@ a.navbar-brand img {
   text-decoration: none;
   display: block;
   width: 100%;
-  background: url('./images/arrow_right_red.png') no-repeat 100% 50%;
+  background: url('images/arrow_right_red.png') no-repeat 100% 50%;
   padding-right: 20px;
 }
 @media (max-width: 767px) {
@@ -1351,7 +1352,7 @@ a.navbar-brand img {
   color: #888888;
 }
 .sin-convocatorias h2 {
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-align: center;
   color: #943a4a;
   padding: 0.3em 0;
@@ -1359,7 +1360,7 @@ a.navbar-brand img {
   width: 80%;
 }
 .sin-convocatorias h3 {
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-align: center;
   padding: 0.3em 0;
   margin: 0 auto 1.5em auto;
@@ -1374,14 +1375,14 @@ a.navbar-brand img {
   margin-top: 10px;
   margin-bottom: 10px;
   border: 1px solid;
-  background: url('./images/bg-convocatoria.png') repeat-x top;
-  padding: 80px 3em 20px 3em;
+  background: url('images/bg-convocatoria.png') repeat-x top;
+  padding: 50px 3em 20px 3em;
 }
 .sin-convocatorias .item a {
   color: #888888;
   font-size: 0.8em;
   text-decoration: none;
-  background: url('./images/arrow_right_red.png') no-repeat 100% 50%;
+  background: url('images/arrow_right_red.png') no-repeat 100% 50%;
   padding-right: 2em;
 }
 @media (max-width: 767px) {
@@ -1406,7 +1407,7 @@ a.navbar-brand img {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('./images/bg-galfotos.png') repeat-y right #0082a0;
+  background: url('images/bg-galfotos.png') repeat-y right #0082a0;
   color: #FFF;
   transition: all 0.7s;
   -webkit-transition: all 0.7s;
@@ -1424,7 +1425,7 @@ a.navbar-brand img {
 .sin-galfotos .titulo,
 .sin-galfotos .subtitulo,
 .sin-galfotos .autor {
-  margin: 16px 100px 0 16px;
+  margin: 16px 40px 0 16px;
   padding: 0;
   display: block;
 }
@@ -1463,7 +1464,7 @@ a.navbar-brand img {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('./images/bg-galvideos.png') repeat-y right #943a4a;
+  background: url('images/bg-galvideos.png') repeat-y right #943a4a;
   color: #FFF;
   transition: all 0.7s;
   -webkit-transition: all 0.7s;
@@ -1481,7 +1482,7 @@ a.navbar-brand img {
 .sin-galvideos .titulo,
 .sin-galvideos .subtitulo,
 .sin-galvideos .autor {
-  margin: 16px 100px 0 16px;
+  margin: 16px 40px 0 16px;
   padding: 0;
   display: block;
 }
@@ -1518,12 +1519,12 @@ a.navbar-brand img {
   border-color: #a4adad;
 }
 .sin-faqs .panel-default .panel-heading {
-  background: url('./images/bg-faq-1.png') no-repeat right top #943a4a;
+  background: url('images/bg-faq-1.png') no-repeat right top #943a4a;
   overflow: hidden;
   color: #ffffff;
 }
 .sin-faqs .panel-default:nth-child(even) .panel-heading {
-  background: url('./images/bg-faq-2.png') no-repeat top right #ffffff;
+  background: url('images/bg-faq-2.png') no-repeat top right #ffffff;
   overflow: hidden;
   color: #888888;
 }
@@ -1531,17 +1532,15 @@ a.navbar-brand img {
   display: block;
   width: 100%;
   color: #fff;
-  font-size: 1.8em;
-  background: url('./images/more-1.png') no-repeat 0% 50%;
+  font-size: 1.2em;
+  background: url('images/more-1.png') no-repeat 0% 50%;
   padding-left: 40px;
   text-decoration: none;
+  line-height: 2em;
 }
 .sin-faqs .panel-default:nth-child(even) .panel-title a {
   color: #888888;
-  background: url('./images/more-2.png') no-repeat 0% 50%;
-}
-@media (max-width: 767px) {
-  
+  background: url('images/more-2.png') no-repeat 0% 50%;
 }
 @media (max-width: 767px) {
   a.navbar-brand img {
