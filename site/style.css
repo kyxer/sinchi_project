@@ -1544,6 +1544,11 @@ a.navbar-brand img {
   
 }
 @media (max-width: 767px) {
+  a.navbar-brand img {
+    display: inline;
+    height: auto;
+    margin-bottom: 10px;
+  }
   .sinchi-pre-nav li {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -1642,80 +1647,6 @@ a.navbar-brand img {
     margin-top: 4px !important;
     width: 170px !important;
     height: 30px !important;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  a.navbar-brand {
-    margin-left: 15px !important;
-  }
-  a.navbar-brand img {
-    height: 60px;
-  }
-  .sinchi-pre-nav li > a {
-    padding-left: 5px;
-    padding-right: 5px;
-    font-size: 9px;
-  }
-  .sinchi-pre-nav li:nth-child(10) {
-    margin-left: 0px;
-  }
-  .sinchi-pre-nav form {
-    margin-right: 0px;
-    margin-left: 0px;
-  }
-  .sinchi-pre-nav form span {
-    display: none;
-  }
-  .sinchi-pre-nav form input {
-    height: 25px;
-    width: 80px !important;
-  }
-  .sinchi-nav-bar {
-    height: 35px;
-  }
-  ul.sinchi-nav-bar > li.dropdown > a {
-    padding: 5px;
-    font-size: 10px;
-  }
-  ul.sinchi-nav-bar > li.active > a {
-    padding: 5px;
-    font-size: 10px;
-  }
-  .sin-cnt-home .carousel-indicators {
-    margin-left: 330px;
-  }
-  .sinchi-poligono {
-    top: 50px;
-  }
-  .sinchi-poligono .sin-cnt-pol {
-    width: 200px;
-    height: 200px;
-  }
-  .sinchi-poligono h1 {
-    font-size: 10px;
-    width: 130px;
-    margin-top: 48px;
-    margin-left: 35px;
-  }
-  .sinchi-poligono h2 {
-    font-size: 10px;
-    width: 156px;
-    margin-top: 15px;
-    margin-left: 22px;
-  }
-  .sinchi-poligono a.sin-arrow-down {
-    margin-left: 90px;
-  }
-  .sinchi-poligono a.sin-arrow-down img {
-    width: 15px;
-    height: 15px;
-  }
-  .sinchi-poligono a.sin-longo-carousel {
-    margin-left: 70px;
-    margin-top: 50px;
-  }
-  .sinchi-poligono a.sin-longo-carousel img {
-    width: 50px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
