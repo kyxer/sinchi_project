@@ -14,7 +14,25 @@ var chainFontSize = function(val){
 
 
 
+
+
 $( document ).ready(function() {
+
+    if ($(window).width() > 767){
+        $('.dropdown').hover(function(){
+             $(this).addClass('open');
+            }, function(){
+                $(this).removeClass('open');
+            });
+
+        $('.dropdown').click(function(e){
+            e.stopPropagation();
+        });
+    }
+
+
+
+
 
 
 	var owlteam = $('.owlTeam');
