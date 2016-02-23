@@ -463,6 +463,31 @@ a.navbar-brand img {
 .sin-second-footer span {
   color: #deacac;
 }
+.sin-head-list {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  list-style-type: none;
+  border-left: 2px solid;
+  padding-left: 20px;
+}
+.sin-head-list li {
+  margin: 0px;
+  padding: 0px;
+  line-height: 1.2;
+}
+.sin-head-list li a {
+  font-size: 0.750em;
+}
+.sin-ins-menu {
+  padding-right: 15px;
+  margin-top: 2px;
+}
+.sin-ins-menu li a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-size: 0.813em;
+}
 .sin-our-team-thumb h3 {
   font-size: 1.125em;
   margin-bottom: 1px;
@@ -1544,6 +1569,148 @@ a.navbar-brand img {
 .sin-faqs .panel-default:nth-child(even) .panel-title a {
   color: #888888;
   background: url('images/more-2.png') no-repeat 0% 50%;
+}
+.sin-specimens {
+  background-image: url('images/specimens-bg.jpg');
+  padding: 40px 45px 40px 45px;
+}
+.sin-specimens .sin-ins-header {
+  background-color: #a59cb6;
+}
+.sin-specimens .sin-ins-header h1 {
+  color: #ffffff;
+  font-size: 1.063em;
+  margin-top: 30px;
+}
+.sin-specimens .sin-ins-header .sin-head-list {
+  border-left-color: #4c4c4c;
+}
+.sin-specimens .sin-ins-header .sin-head-list li a {
+  color: #4c4c4c;
+}
+.sin-specimens .sin-ins-header a img {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.sin-specimens .sin-ins-menu ul {
+  background-color: #534c60;
+}
+.sin-specimens .sin-ins-menu ul li {
+  width: 270px;
+  text-align: center;
+}
+.sin-specimens .sin-ins-menu ul li:hover a {
+  color: #534c60;
+}
+.sin-specimens .sin-speci-cont {
+  background: white;
+  margin-top: 2px;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-bottom: 80px;
+  background-image: url('images/patron_header_specimens.png');
+  background-repeat: repeat-x;
+  background-position: 0 98%;
+}
+.sin-specimens .sin-speci-cont .sin-sec-header {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.sin-specimens .sin-speci-cont .sin-sec-header h1 {
+  margin-left: 35px;
+  font-size: 1.000em;
+  color: #a59cb6;
+  margin-top: 55px;
+}
+.sin-specimens .sin-speci-cont .sin-speci-cont-form {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 35px;
+  border: 1px solid;
+  border-color: #d6d6d6;
+  padding-bottom: 20px;
+}
+.sin-specimens .sin-speci-cont .sin-speci-cont-form p {
+  padding: 20px 20px 10px 20px;
+  color: #a4adad;
+}
+.sin-specimens .sin-speci-cont .sin-speci-cont-form h2 {
+  font-size: 0.875em;
+  font-weight: bold;
+  text-align: center;
+  color: #a59cb6;
+  margin-bottom: 25px;
+}
+.sin-specimens .sin-speci-cont .sin-speci-cont-form .sin-cont-form {
+  background: #534c60;
+  padding: 50px 0px 35px 0px;
+  margin-bottom: 10px;
+  background-image: url('images/patron_header_specimens.png');
+  background-repeat: repeat-x;
+}
+.sin-specimens .sin-speci-cont .sin-speci-cont-form .sin-cont-form label {
+  color: white;
+}
+.sin-specimens .sin-speci-cont .sin-speci-cont-form .sin-cont-form-2 {
+  border: 1px solid;
+  border-color: #534c60;
+  padding: 50px 0px 25px 0px;
+  margin-bottom: 10px;
+  background-image: url('images/patron_header_specimens.png');
+  background-repeat: repeat-x;
+  border-top: 0px;
+}
+.sin-specimens .sin-speci-cont .sin-speci-cont-form .sin-cont-form-2 label {
+  color: #a59cb6;
+}
+.sin-specimens .sin-speci-cont .sin-speci-cont-form .btn-default {
+  float: right;
+  padding: 5px 15px;
+  font-weight: bold;
+  color: white;
+  background: #534c60;
+}
+@media (max-width: 767px) {
+  .sin-specimens {
+    background-image: url('images/specimens-bg.jpg');
+    padding: 0px 0px 20px 0px;
+  }
+  .sin-specimens .sin-ins-header h1 {
+    color: #ffffff;
+    margin-top: 0px;
+  }
+  .sin-specimens .sin-ins-header a img {
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+  }
+  .sin-specimens .sin-head-list {
+    border: 0px;
+    padding-left: 0px;
+  }
+  .sin-specimens .sin-ins-menu {
+    margin-top: 0px;
+  }
+  .sin-specimens .sin-ins-menu ul {
+    border: 0px;
+  }
+  .sin-specimens .sin-ins-menu ul li {
+    width: 100%;
+    text-align: center;
+  }
+  .sin-specimens .sin-speci-cont .sin-sec-header {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .sin-specimens .sin-speci-cont .sin-sec-header h1 {
+    margin-top: 35px;
+  }
+  .sin-specimens .sin-speci-cont .sin-speci-cont-form {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 35px;
+    border: 0px solid;
+  }
 }
 @media (max-width: 767px) {
   a.navbar-brand img {
