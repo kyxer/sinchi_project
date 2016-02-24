@@ -1,0 +1,223 @@
+@import './less/colors.less';
+
+.sin-herbarium{
+
+    background-image: url('./images/herbario-bg.jpg');
+
+    padding: 40px 45px 40px 45px;
+    margin-bottom: 50px;
+
+    .sin-ins-header{
+        background-color: @herbarium-header-bg;
+
+        h1{
+            color: @gray-base;
+            font-size: 1.063em;
+            margin-top: 30px;
+
+        }
+
+        .sin-head-list{
+            border-left-color: white;
+            min-height: 100px;
+            li{
+                a{
+                    color: white;
+                }
+            }
+        }
+        a{
+            img {
+                margin-top: 20px;
+                margin-left: 30px;
+            }
+        }
+    }
+
+
+    .sin-herb-cont{
+        background: transparent;
+        margin-top: 5px;
+        margin-right: -15px;
+
+        .sin-herb-cnt-r{
+            background: @herbarium-text-bg;
+            opacity: 0.9;
+            .sin-herb-text{
+                margin: 20px 15px;
+                border-top: 2px solid;
+                border-bottom: 2px solid;
+                border-color: white;
+
+                p{
+                    font-size: 0.813em;
+                    color: white;
+                    padding: 10px
+                }
+
+
+            }
+        }
+
+        .sin-herb-tab{
+            ul.nav-tabs{
+                li{
+                    min-width: 195px;
+                    font-size: 0.813em;
+                    font-weight: bold;
+                    text-align: center;
+                    background: @herbarium-tab-bg;
+
+                    a{
+                        color:@herbarium-text-tab-title;
+
+                    }
+                }
+            }
+            .tab-content{
+                background: white;
+            }
+
+            .herbarium-info-plant{
+                padding-top: 100px;
+                margin-bottom: 40px;
+                border-right: 1px solid;
+                border-color:@herbarium-text-tab-title;
+                margin-top: 20px;
+
+                h2{
+                    font-size: 0.813em;
+                    font-style: italic;
+                    font-weight: bold;
+                }
+
+                label{
+                    font-size: 0.625em;
+                    color: @herbarium-text-tab-title;
+                    margin-bottom: 0px;
+                    span{
+                        color:@herbarium-span-title;
+                    }
+                }
+            }
+
+            .herb-text-aux{
+                padding-top: 20px;
+                margin-left: -15px;
+                padding-right: 15px;
+
+                p{
+                    font-size: 0.875em;
+                    color: @herbarium-text-tab-title;
+                    margin-bottom: 50px;
+
+                }
+
+                a{
+                  margin-top: 50px;
+                  color: @herbarium-text-tab-title;
+                  font-weight: bold;
+                }
+            }
+
+            .herb-img{
+                text-align: center;
+                margin-top: 40px;
+            }
+        }
+
+
+    }
+
+
+}
+
+@media (max-width: 767px){
+
+    .sin-herbarium{
+
+    padding: 0px 0px 20px 0px;
+
+    .sin-ins-header{
+
+        .sin-head-logo{
+            text-align: center;
+
+            a{
+                img{
+                    margin-left: 0px;
+                }
+            }
+        }
+
+        h1{
+            margin-top: 0px;
+            text-align: center;
+        }
+
+        a{
+            img {
+                margin-top: 10px;
+                margin-left: 80px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .sin-head-list{
+
+        border: 0px;
+        padding-left: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+
+    }
+
+    .sin-ins-menu{
+        margin-top: 0px;
+        ul{
+
+            border: 0px;
+
+            li{
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+    }
+
+    .sin-herb-cont{
+        background: transparent;
+        margin-top: 0px;
+        margin-right: 0px;
+        padding-bottom: 80px;
+
+        .sin-herb-tab{
+
+            ul.nav-tabs{
+                li{
+                    min-width: 100%;
+                }
+            }
+
+            .herbarium-info-plant{
+                padding-top: 10px;
+                margin-bottom: 10px;
+                border-right: 0px solid;
+                margin-top: 10px;
+
+            }
+
+            .herb-text-aux{
+                padding-top: 10px;
+                margin-left: 0px;
+                padding-right: 0px;
+                padding-bottom: 20px;
+            }
+        }
+
+    }
+
+    }
+}
