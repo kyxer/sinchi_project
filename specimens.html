@@ -229,164 +229,161 @@
               <li><a href="">PROCESO DE CURADURIA Y ORGANIZACION DE LA CIACOL</a></li>
             </ul>
           </div>
-
         </div>
-        <div class="row sin-ins-menu">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">CONSULTA ESPECIMENES</a></li>
-            <li><a href="#">REGLAMENTO</a></li>
-            <li><a href="#">CONTACTO</a></li>
-          </ul>
-        </div>
-        <div class="row sin-ins-menu">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">CONSULTA ESPECIMENES</a></li>
-            <li><a href="#">CONSULTA ESPECIMENES</a></li>
-            <li><a href="#">CONSULTA ESPECIMENES</a></li>
-            <li><a href="#">CONSULTA ESPECIMENES</a></li>
-          </ul>
-        </div>
-        <div class="sin-speci-cont">
-          <div class="row">
-            <div class="sin-sec-header">
-                <div class="col-xs-7 col-md-9">
-                  <h1>CIACOL</h1>
-                </div>
-                <div class="col-xs-5 col-md-3">
-                  <div class="btn-group" role="group">
-                    <button data-change="down" onclick="chainFontSize(this)" type="button" class="btn btn-default sin-sm">A <sup class="sin-sup">-</sup></button>
-                    <button data-change="up" onclick="chainFontSize(this)" type="button" class="btn btn-default sin-bg">A <sup class="sin-sup">+</sup></button>
+        <ul class="nav nav-tabs row sin-ins-menu" role="tablist">
+          <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">CONSULTA ESPECIMENES</a></li>
+          <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">REGLAMENTO</a></li>
+          <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">CONTACTO</a></li>
+          <li role="presentation"><a href="#messages2" aria-controls="messages" role="tab" data-toggle="tab">CONSULTA ESPECIMENES</a></li>
+          <li role="presentation"><a href="#messages3" aria-controls="messages" role="tab" data-toggle="tab">CONSULTA ESPECIMENES</a></li>
+          <li role="presentation"><a href="#messages4" aria-controls="messages" role="tab" data-toggle="tab">CONSULTA ESPECIMENES</a></li>
+          <li role="presentation"><a href="#messages5" aria-controls="messages" role="tab" data-toggle="tab">CONSULTA ESPECIMENES</a></li>
+        </ul>
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane sin-speci-cont active" id="home">
+            <div class="row">
+              <div class="sin-sec-header">
+                  <div class="col-xs-7 col-md-9">
+                    <h1>CIACOL</h1>
                   </div>
-                </div>
+                  <div class="col-xs-5 col-md-3">
+                    <div class="btn-group" role="group">
+                      <button data-change="down" onclick="chainFontSize(this)" type="button" class="btn btn-default sin-sm">A <sup class="sin-sup">-</sup></button>
+                      <button data-change="up" onclick="chainFontSize(this)" type="button" class="btn btn-default sin-bg">A <sup class="sin-sup">+</sup></button>
+                    </div>
+                  </div>
               </div>
-          </div>
-          <div class="row sin-speci-cont-form">
-            <p>
-              En la columna CAMPO usted tiene la posibilidad de hacer búsquedas por Orden, Familia, Género y Especie, tiene cuatro posibles combinaciones entre ellas. En la columna ÍNDICE aparecerán solamente los datos existentes en la base de datos y se restringen cada vez que selecciona una nueva opción, tambien tiene la opción de consultarlo por el nombre cienftifico o común de la especie.
-            </p>
-            <div class="col-md-6">
-              <h2>CONSULTA POR NOMBRE DE TAXONOMIA</h2>
-              <form class="form-horizontal">
-                <div class="sin-cont-form">
-                  <div class="form-group">
-                    <label for="date" class="col-sm-3 control-label">CAMPO</label>
-                    <label class="col-sm-8 control-label" style='text-align: left;'>INDICE</label>
-                  </div>
-                  <div class="form-group">
-                    <label for="date" class="col-sm-3 control-label">Orden:</label>
-                    <div class="col-sm-8">
-                      <select class="form-control">
-                        <option>Seleccionar</option>
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                      </select>
+            </div>
+            <div class="row sin-speci-cont-form">
+              <p>
+                En la columna CAMPO usted tiene la posibilidad de hacer búsquedas por Orden, Familia, Género y Especie, tiene cuatro posibles combinaciones entre ellas. En la columna ÍNDICE aparecerán solamente los datos existentes en la base de datos y se restringen cada vez que selecciona una nueva opción, tambien tiene la opción de consultarlo por el nombre cienftifico o común de la especie.
+              </p>
+              <div class="col-md-6">
+                <h2>CONSULTA POR NOMBRE DE TAXONOMIA</h2>
+                <form class="form-horizontal">
+                  <div class="sin-cont-form">
+                    <div class="form-group">
+                      <label for="date" class="col-sm-3 control-label">CAMPO</label>
+                      <label class="col-sm-8 control-label" style='text-align: left;'>INDICE</label>
                     </div>
-                  </div>
-                  <div class="form-group">
-                    <label for="date" class="col-sm-3 control-label">Familia:</label>
-                    <div class="col-sm-8">
-                      <select class="form-control">
-                        <option>Seleccionar</option>
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                      </select>
+                    <div class="form-group">
+                      <label for="date" class="col-sm-3 control-label">Orden:</label>
+                      <div class="col-sm-8">
+                        <select class="form-control">
+                          <option>Seleccionar</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
                     </div>
-                  </div>
+                    <div class="form-group">
+                      <label for="date" class="col-sm-3 control-label">Familia:</label>
+                      <div class="col-sm-8">
+                        <select class="form-control">
+                          <option>Seleccionar</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
 
-                  <div class="form-group">
-                    <label for="deparment" class="col-sm-3 control-label">Genero:</label>
-                    <div class="col-sm-8">
-                      <select class="form-control">
-                        <option>Seleccionar</option>
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                      </select>
+                    <div class="form-group">
+                      <label for="deparment" class="col-sm-3 control-label">Genero:</label>
+                      <div class="col-sm-8">
+                        <select class="form-control">
+                          <option>Seleccionar</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="city" class="col-sm-3 control-label">Especie:</label>
+                      <div class="col-sm-8">
+                        <select class="form-control">
+                          <option>Seleccionar</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
                     </div>
                   </div>
-                  <div class="form-group">
-                    <label for="city" class="col-sm-3 control-label">Especie:</label>
-                    <div class="col-sm-8">
-                      <select class="form-control">
-                        <option>Seleccionar</option>
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                      </select>
+                  <div class="form-group sin-btn">
+                    <div class="col-sm-offset-8 col-sm-4">
+                      <button type="submit" class="btn btn-default">CONSULTAR</button>
                     </div>
                   </div>
-                </div>
-                <div class="form-group sin-btn">
-                  <div class="col-sm-offset-8 col-sm-4">
-                    <button type="submit" class="btn btn-default">CONSULTAR</button>
-                  </div>
-                </div>
-              </form>
-            </div>
-            <div class="col-md-6">
-              <h2>CONSULTA POR NOMBRE DE ESPECIE</h2>
-              <form class="form-horizontal">
-                <div class="sin-cont-form-2">
-                  <div class="form-group">
-                    <label for="date" class="col-sm-3 control-label">Especie:</label>
-                    <div class="col-sm-8">
-                      <select class="form-control">
-                        <option>Seleccionar</option>
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                      </select>
+                </form>
+              </div>
+              <div class="col-md-6">
+                <h2>CONSULTA POR NOMBRE DE ESPECIE</h2>
+                <form class="form-horizontal">
+                  <div class="sin-cont-form-2">
+                    <div class="form-group">
+                      <label for="date" class="col-sm-3 control-label">Especie:</label>
+                      <div class="col-sm-8">
+                        <select class="form-control">
+                          <option>Seleccionar</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="form-group sin-btn">
-                  <div class="col-sm-offset-8 col-sm-4">
-                    <button type="submit" class="btn btn-default">CONSULTAR</button>
-                  </div>
-                </div>
-              </form>
-              <h2>CONSULTA POR NOMBRE COMÚN</h2>
-              <form class="form-horizontal">
-                <div class="sin-cont-form-2">
-                  <div class="form-group">
-                    <label for="date" class="col-sm-3 control-label">Nombre:</label>
-                    <div class="col-sm-8">
-                      <select class="form-control">
-                        <option>Seleccionar</option>
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                      </select>
+                  <div class="form-group sin-btn">
+                    <div class="col-sm-offset-8 col-sm-4">
+                      <button type="submit" class="btn btn-default">CONSULTAR</button>
                     </div>
                   </div>
-                </div>
-                <div class="form-group sin-btn">
-                  <div class="col-sm-offset-8 col-sm-4">
-                    <button type="submit" class="btn btn-default">CONSULTAR</button>
+                </form>
+                <h2>CONSULTA POR NOMBRE COMÚN</h2>
+                <form class="form-horizontal">
+                  <div class="sin-cont-form-2">
+                    <div class="form-group">
+                      <label for="date" class="col-sm-3 control-label">Nombre:</label>
+                      <div class="col-sm-8">
+                        <select class="form-control">
+                          <option>Seleccionar</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </form>
+                  <div class="form-group sin-btn">
+                    <div class="col-sm-offset-8 col-sm-4">
+                      <button type="submit" class="btn btn-default">CONSULTAR</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
+          <div role="tabpanel" class="tab-pane sin-speci-cont" id="profile">1...</div>
+          <div role="tabpanel" class="tab-pane sin-speci-cont" id="messages">2...</div>
+          <div role="tabpanel" class="tab-pane sin-speci-cont" id="messages2">3...</div>
+          <div role="tabpanel" class="tab-pane sin-speci-cont" id="messages3">4...</div>
+          <div role="tabpanel" class="tab-pane sin-speci-cont" id="messages4">5...</div>
+          <div role="tabpanel" class="tab-pane sin-speci-cont" id="messages5">6...</div>
         </div>
-
-
-
-
       </div>
       <div class="sin-footer">
         <div class="row alies hidden-xs">

@@ -1592,14 +1592,18 @@ a.navbar-brand img {
   margin-top: 20px;
   margin-left: 30px;
 }
-.sin-specimens .sin-ins-menu ul {
-  background-color: #534c60;
+.sin-specimens .sin-ins-menu {
+  margin-top: 5px;
+  border-bottom: 0px;
+  padding-right: 0px;
 }
-.sin-specimens .sin-ins-menu ul li {
+.sin-specimens .sin-ins-menu li {
+  background-color: #534c60;
   width: 270px;
   text-align: center;
+  margin-bottom: 3px;
 }
-.sin-specimens .sin-ins-menu ul li:hover a {
+.sin-specimens .sin-ins-menu li:hover a {
   color: #534c60;
 }
 .sin-specimens .sin-speci-cont {
